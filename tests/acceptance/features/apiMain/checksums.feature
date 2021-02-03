@@ -333,7 +333,7 @@ Feature: checksums
 
   Scenario Outline: Uploading a file with checksum should work for file with special characters
     When user "Alice" uploads file "filesForUpload/textfile.txt" to <renamed_file> with checksum "MD5:d70b40f177b14b470d1756a3c12b963a" using the WebDAV API
-    Then the HTTP status code should be "204"
+    Then the HTTP status code should be "201"
     And the content of file <renamed_file> for user "Alice" should be:
       """
       This is a testfile.
