@@ -64,7 +64,11 @@
         "sabre/vobject": "^4.3",
         "dg/composer-cleaner": "^2.1",
         "ext-gd": "*",
-        "ext-intl": "*"
+        "ext-intl": "*",
+        "ext-bcmath": "*",
+        "ext-mcrypt": "*",
+        "ext-memcached": "*",
+        "ext-mongodb": "^1.1.0"
     },
     "extra": {
         "bamarni-bin": {
