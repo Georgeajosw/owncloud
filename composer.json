@@ -62,7 +62,8 @@
         "composer/semver": "^3.0",
         "ext-json": "*",
         "sabre/vobject": "^4.3",
-        "dg/composer-cleaner": "^2.1"
+        "dg/composer-cleaner": "^2.1",
+        "ext-gd": "*"
     },
     "extra": {
         "bamarni-bin": {
