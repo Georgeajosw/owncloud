@@ -64,7 +64,7 @@
         "sabre/vobject": "^4.3",
         "dg/composer-cleaner": "^2.1",
         "ext-gd": "*",
-        "ext-intl": "*",
+        "ext-intl": "*"
     },
     "extra": {
         "bamarni-bin": {
